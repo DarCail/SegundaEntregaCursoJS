@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+}
+
+
+/*navbar*/
+
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #000;
+}
+
+.navbar-logo{
+   justify-self: start;
+   margin-left: 20px;
+   color: #fff;
+   margin-top: 4vh;
+   cursor: pointer;
+}
+
+.ver-carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+
+/*banner*/
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4)),
+        url("https://res.cloudinary.com/teepublic/image/private/s--7NAfeoLe--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1533186521/production/designs/2968262_0.jpg");
+}
+
+.banner-container{
+    text-align: center;
+    padding: 15% 0;
+}
+
+.banner h1{
+    margin: 0;
+    color: #fff;
+    font-size: 62px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+
+.banner p{
+    color: #fff;
+    font-size: 30px;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+/*product cards*/
+
+.shop-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    max-width: 300px;
+    font-family: arial;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.card img{
+    width: 90%;
+    height: 250px;
+}
+
+.price{
+    color: grey;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
