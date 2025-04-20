@@ -1,42 +1,41 @@
- [
-    
-    { "id": 1, 
-      "nombre": "Monster hunter", 
-      "precio": 1200,
-      "img": "https://microless.com/cdn/products/018c82745311b1d3dd435becfa99137a-hi.jpg", 
-      "cantidad": 1
-    },
+[
+  {
+    "id": 1,
+    "nombre": "Monster Hunter",
+    "precio": 1200,
+    "img": "https://microless.com/cdn/products/018c82745311b1d3dd435becfa99137a-hi.jpg",
+    "cantidad": 1
+  },
 
-    { 
-      "id": 2, 
-      "nombre": "Demons souls", 
-      "precio": 2000, 
-      "img": "https://th.bing.com/th/id/OIP.jJBvk2uO3QbBrdRl6M3yvAAAAA?rs=1&pid=ImgDetMain", 
-      "cantidad": 1
-    },
+  {
+    "id": 2,
+    "nombre": "Demons Souls",
+    "precio": 2000,
+    "img": "https://th.bing.com/th/id/OIP.jJBvk2uO3QbBrdRl6M3yvAAAAA?rs=1&pid=ImgDetMain",
+    "cantidad": 1
+  },
 
-    { 
-        "id": 3, 
-        "nombre": "GTA", 
-        "precio": 1800, 
-        "img": "https://m.media-amazon.com/images/I/71rmY66nqoL.jpg", 
-        "cantidad": 1
-    },
-    
-    { 
-        "id": 4, 
-        "nombre": "Resident evil", 
-        "precio": 1700, 
-        "img": "https://www.startechstore.com/wp-content/uploads/2023/04/CD-For-Resident-Evil-4-PS5-1.jpg", 
-        "cantidad": 1
-    },
-        
-    { 
-        "id": 5, 
-        "nombre": "God of war", 
-        "precio": 1500, 
-        "img": "https://th.bing.com/th/id/OIP.YjrMLQ8KtYSZtZH-GviM9AAAAA?w=468&h=600&rs=1&pid=ImgDetMain", 
-        "cantidad": 1
-    }
-    
+  {
+    "id": 3,
+    "nombre": "GTA V",
+    "precio": 1800,
+    "img": "https://m.media-amazon.com/images/I/71rmY66nqoL.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 4,
+    "nombre": "Resident Evil",
+    "precio": 1700,
+    "img": "https://www.startechstore.com/wp-content/uploads/2023/04/CD-For-Resident-Evil-4-PS5-1.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 5,
+    "nombre": "God of War",
+    "precio": 1500,
+    "img": "https://th.bing.com/th/id/OIP.YjrMLQ8KtYSZtZH-GviM9AAAAA?w=468&h=600&rs=1&pid=ImgDetMain",
+    "cantidad": 1
+  }
 ]
